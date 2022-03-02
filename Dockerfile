@@ -46,3 +46,6 @@ or
 
 # for running container in detachable mode
 # $ docker run -d <IMAGE>
+
+#docker Networks
+#$ docker network create <NETWORK-NAME>
