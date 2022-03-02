@@ -17,6 +17,10 @@ CMD ["redis-server"]
 #stop/kill running container
 #$ docker stop/kill <CONTAINER-ID>
 
+#start a stopped container
+#$ docker start <CONTAINER-ID>
+#docker run will create a new container whereas docker start will start a stopped container
+
 # all container running/stopped
 #$ docker ps -a 
 
