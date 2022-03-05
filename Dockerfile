@@ -49,3 +49,6 @@ or
 
 #docker Networks
 #$ docker network create <NETWORK-NAME>
+
+# delete/remove an image
+#$ docker image rm <IMAGE/CONTAINER-ID>
