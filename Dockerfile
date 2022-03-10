@@ -54,3 +54,5 @@ or
 
 # delete/remove an image
 #$ docker image rm <IMAGE/CONTAINER-ID>
+#$ docker rm <CONTAINER-ID/NAME>
+#$ docker rmi <IMAGE-NAME>
