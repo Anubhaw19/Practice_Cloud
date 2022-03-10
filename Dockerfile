@@ -31,7 +31,9 @@ CMD ["redis-server"]
 #$ docker run -it alpine sh
 # using the above command we a run a shell within a linux alpine image & execute commands
 or
-#$ docker exec -it <CONTAINER-ID> /bin/bash
+#$ docker exec -it <CONTAINER-ID> /bin/bash 
+or
+#$ docker exec -it <CONTAINER-ID> /bin/sh
 
 #$ docker commit -c 'CMD "redis-server"' 
 # above command take the systemfile snapshot of the container with <CONTAINER-ID> and will execute with the startup command as provided i.e-  CMD "redis-server"
