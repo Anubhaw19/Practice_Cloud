@@ -56,3 +56,7 @@ or
 #$ docker image rm <IMAGE/CONTAINER-ID>
 #$ docker rm <CONTAINER-ID/NAME>
 #$ docker rmi <IMAGE-NAME>
+
+#Add the ec2-user to the docker group so you can execute Docker commands without using sudo.
+#$ sudo usermod -a -G docker ec2-user
+
