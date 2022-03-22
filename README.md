@@ -19,3 +19,4 @@
   ssh user@ip
 ```
 
+- [Generate key and SSH from one VM to another VM](https://github.com/Anubhaw19/Practice_Cloud/blob/main/generateKey%26SSH.md)
