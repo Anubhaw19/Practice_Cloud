@@ -27,7 +27,7 @@ docker ps -a
 ```bash
 docker build .
 ```
-***
+
 ```bash
 docker build -t anubhaw/redis:latest .
 ```
@@ -35,15 +35,15 @@ docker build -t anubhaw/redis:latest .
 ```bash
 docker run -it alpine sh
 ```
-***
+
 ```bash
 docker exec -it <CONTAINER-ID> /bin/bash 
 ```
-***
+
 ```bash
 docker exec -it <CONTAINER-ID> /bin/sh
 ```
----
+
 * take the systemfile snapshot of the container with <CONTAINER-ID> and will execute with the startup command as provided i.e-  CMD "redis-server"
 ```bash
 docker commit -c 'CMD "redis-server"' 
