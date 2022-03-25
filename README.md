@@ -1,6 +1,15 @@
 # Practice_Cloud
 
 
+### Appendix
+
+ - [Generate key and SSH from one VM to another VM](https://github.com/Anubhaw19/Practice_Cloud/blob/main/generateKey%26SSH.md)
+ - [Docker](https://github.com/Anubhaw19/Practice_Cloud/blob/main/docker_commands.md)
+ 
+
+
+
+
 
 ## ssh 
 
@@ -19,4 +28,4 @@
   ssh user@ip
 ```
 
-- [Generate key and SSH from one VM to another VM](https://github.com/Anubhaw19/Practice_Cloud/blob/main/generateKey%26SSH.md)
+
