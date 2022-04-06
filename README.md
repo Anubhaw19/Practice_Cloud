@@ -3,7 +3,7 @@
 
 ### Appendix
 
- - [Generate key and SSH from one VM to another VM](https://github.com/Anubhaw19/Practice_Cloud/blob/Nginxmain/generateKey%26SSH.md)
+ - [Generate key and SSH from one VM to another VM](https://github.com/Anubhaw19/Practice_Cloud/blob/main/generateKey%26SSH.md)
  - [Docker Commands](https://github.com/Anubhaw19/Practice_Cloud/blob/main/docker_commands.md)
  - [Nginx Commands](https://github.com/Anubhaw19/Practice_Cloud/blob/main/nginx.md)
  
