@@ -69,3 +69,8 @@
   $ export AWS_SECRET_ACCESS_KEY="asecretkey"
   $ export AWS_REGION="us-west-2"
 ```
+- check the environment variables
+
+```bash
+  $ env | grep AWS
+```
