@@ -49,7 +49,7 @@
 
 ```bash
   terraform state list
-  terraform state show <resource name>
+  terraform state show <RESOURCE-NAME>
 ```
 #### Variable Files
 - default variable file is terraform.tfvars , no need to mention specifically while apply
