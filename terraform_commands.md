@@ -79,3 +79,19 @@
 ```bash
   $ env | grep AWS
 ```
+  - configure AWS credentials globally using **AWS-CLI** 
+
+```bash
+  $ sudo apt install awscli
+  $ aws configure
+  AWS Access Key ID [None]: XXXXXXXXXXXXXX
+  AWS Secret Access Key [None]: XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  Default region name [None]: us-east-1
+  Default output format [None]: 
+```
+- check the AWS config and credentials files
+
+```bash
+  $ cat ~/.aws/credentials
+  $ cat ~/.aws/config
+```
