@@ -1,6 +1,6 @@
 
 ## Terraform Commands
-### installation (-debian)
+### Installation (-debian)
 - Create a working directory
 ```bash
   sudo mkdir -p /opt/terraform
@@ -50,4 +50,15 @@
 ```bash
   terraform state list
   terraform state show <resource name>
+```
+#### Variable Files
+- default variable file is terraform.tfvars , no need to mention specifically while apply
+
+```bash
+  terraform apply
+```
+- if there are different variable files like( terraform-dev.tfvars ) then
+
+```bash
+  terraform apply -var-file <FILE-NAME>
 ```
