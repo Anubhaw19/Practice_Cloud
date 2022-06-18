@@ -41,5 +41,5 @@
 ```bash
   terraform destroy -target aws_subnet.dev-subnet-2
 
-  better way is to delete the corresponding resource from the template and apply
+  better way is to delete the corresponding resource from the template and apply Terraform config file
 ```
