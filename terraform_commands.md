@@ -35,11 +35,19 @@
 
 ```bash
   terraform apply
+  terraform apply -auto-approve
 ```
-- destroy a resource 
+- destroy everything/ a resource 
 
 ```bash
+  terraform destroy
   terraform destroy -target aws_subnet.dev-subnet-2
 
   better way is to delete the corresponding resource from the template and apply Terraform config file
+```
+- show list of resources/datasources for the current state
+
+```bash
+  terraform state list
+  terraform state show <resource name>
 ```
