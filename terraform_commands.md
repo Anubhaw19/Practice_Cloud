@@ -69,6 +69,11 @@
   $ export AWS_SECRET_ACCESS_KEY="asecretkey"
   $ export AWS_REGION="us-west-2"
 ```
+- custom Terraform environment variables using **TF_VAR_<VARIABLE-NAME>
+
+```bash
+  $ export TF_VAR_<VARIABLE-NAME>=<VALUE>
+```
 - check the environment variables
 
 ```bash
