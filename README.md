@@ -7,6 +7,7 @@
  - [Docker Commands](https://github.com/Anubhaw19/Practice_Cloud/blob/main/docker_commands.md)
  - [Nginx Commands](https://github.com/Anubhaw19/Practice_Cloud/blob/main/nginx.md)
  - [Jenkins Setup](https://www.jenkins.io/doc/book/installing/linux/)
+ - [Terraform Commands](https://github.com/Anubhaw19/Practice_Cloud/blob/main/terraform_commands.md)
 
 
 
