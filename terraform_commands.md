@@ -35,7 +35,7 @@
 
 ```bash
   $ terraform apply
-  $ terraform apply -auto-approve
+  $ terraform apply --auto-approve
 ```
 - destroy everything/ a resource 
 
