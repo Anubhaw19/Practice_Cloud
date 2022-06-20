@@ -52,7 +52,7 @@
   $ terraform state show <RESOURCE-NAME>
 ```
 #### Variable Files
-- default variable file is **terraform.tfvars** , no need to mention specifically while apply
+- default variable file is `terraform.tfvars` , no need to mention specifically while apply
 
 ```bash
   $ terraform apply
@@ -69,7 +69,7 @@
   $ export AWS_SECRET_ACCESS_KEY="asecretkey"
   $ export AWS_REGION="us-west-2"
 ```
-- custom Terraform environment variables using **TF_VAR** _<VARIABLE-NAME>
+- custom Terraform environment variables using `TF_VAR_<VARIABLE-NAME>`
 
 ```bash
   $ export TF_VAR_<VARIABLE-NAME>=<VALUE>
@@ -79,7 +79,7 @@
 ```bash
   $ env | grep AWS
 ```
-  - configure AWS credentials globally using **AWS-CLI** 
+  - configure AWS credentials globally using `AWS-CLI` 
 
 ```bash
   $ sudo apt install awscli
