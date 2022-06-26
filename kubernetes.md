@@ -22,6 +22,10 @@
   kubectl delete deployment nginx-depl 
 ```
 ### Status of different `K8s components`
+- get all components that is inside the `Cluster`
+```bash
+  kubectl get all  
+```
 - get `nodes`
 ```bash
   kubectl get nodes  
