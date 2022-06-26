@@ -30,6 +30,10 @@
 ```bash
   kubectl get pod  
 ```
+- get `pod` with more info (IP Address)
+```bash
+  kubectl get pod -o wide
+```
 - get `services`
 ```bash
   kubectl get services  
@@ -66,4 +70,8 @@
 - delete with `Configuration file`
 ```bash
   kubectl delete -f <FILE-NAME>
+```
+- get status of the  `deployment`  stored in `etcd`
+```bash
+  kubectl get deployment <DEPLOYMENT-NAME> -o yaml
 ```
