@@ -79,3 +79,17 @@
 ```bash
   kubectl get deployment <DEPLOYMENT-NAME> -o yaml
 ```
+### Local setup `minikube`
+- start `minikube` for single node cluster having both master and worker node for local setup
+```bash
+  minikube start
+```
+- Kubernetes Dashboard (for additional insight into cluster state)
+```bash
+  minikube dashboard
+```
+- assign `external service` a `public IP Address` (for local setup)
+```bash
+  minikube service <SERVICE-NAME>
+```
+
