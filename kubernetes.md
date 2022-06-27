@@ -71,6 +71,10 @@
 ```bash
   kubectl apply -f <FILE-NAME>
 ```
+- apply a `Configuration file` inside a `namespace`
+```bash
+  kubectl apply -f <FILE-NAME> --namespace=<NAMESPACE-NAME>
+```
 - delete with `Configuration file`
 ```bash
   kubectl delete -f <FILE-NAME>
