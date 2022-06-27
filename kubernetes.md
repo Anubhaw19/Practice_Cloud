@@ -7,6 +7,12 @@
   ex-
   kubectl create deployment nginx-depl --image=nginx
 ```
+- create   `namespace`
+```bash
+  kubectl create namespace <NAMESPACE-NAME> 
+  ex-
+  kubectl create namespace my-namespace
+```
 
 - edit   `deployment`
 ```bash
@@ -74,6 +80,10 @@
 - apply a `Configuration file` inside a `namespace`
 ```bash
   kubectl apply -f <FILE-NAME> --namespace=<NAMESPACE-NAME>
+```
+- to get the `component` created inside a specific `namespace`
+```bash
+  kubectl get <COMPONENT_NAME> -n <NAMESPACE-NAME>
 ```
 - delete with `Configuration file`
 ```bash
