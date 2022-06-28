@@ -106,7 +106,7 @@
 ```bash
   minikube service <SERVICE-NAME>
 ```
-- configure `ingress controller` 
+- configure `ingress controller` (this will automatically starts the K8s Nginx implementation of Ingress Controller)
 ```bash
   minikube addons enable ingress
 ```
