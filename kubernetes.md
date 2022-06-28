@@ -106,4 +106,7 @@
 ```bash
   minikube service <SERVICE-NAME>
 ```
-
+- configure `ingress controller` 
+```bash
+  minikube addons enable ingress
+```
