@@ -31,4 +31,20 @@
   ssh user@ip
 ```
 
-
+## Jenkins Setup
+```bash
+ #!/bin/bash
+          sudo apt install openjdk-11-jdk -y
+          export JAVA_HOME=/usr/lib/jvm/openjdk-11
+          export PATH=$PATH:$JAVA_HOME/bin
+          echo "export JAVA_HOME=/usr/lib/jvm/openjdk-11" | sudo tee --append /etc/profile
+          echo "export PATH=\$PATH:\$JAVA_HOME/bin" | sudo tee --append /etc/profile
+          curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+          echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian binary/ | sudo tee  /etc/apt/sources.list.d/jenkins.list > /dev/null
+          sudo apt-get update -y
+          sudo apt-get install jenkins -y
+          sudo systemctl start jenkins.service
+          sudo ufw allow 8080
+          sudo ufw allow OpenSSH
+          sudo ufw --force enable
+```
