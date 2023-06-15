@@ -80,6 +80,9 @@ docker rm <CONTAINER-ID/NAME>
 ```bash
 docker rmi <IMAGE-NAME>
 ```
-
+* copy a file from docker container to local machine
+```bash
+docker cp <container_id_or_name>:<source_path> <local_destination_path>
+```
 
 
